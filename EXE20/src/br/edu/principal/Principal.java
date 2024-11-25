@@ -28,19 +28,19 @@ public class Principal {
 		System.out.println("Pré total: " + pretotal);
 		if (codpais == 1) {
 			imposto = 0.0;
-			System.out.print(imposto);
+			System.out.println("Imposto: " + imposto);
 			valortotal = pretotal + imposto;
 			System.out.println("Valor Total: " + valortotal);
 		}
 		if (codpais == 2) {
 			imposto = pretotal * (15/100);
-			System.out.print(imposto);
+			System.out.println("Imposto: " + imposto);
 			valortotal = pretotal + imposto;
 			System.out.println("Valor Total: " + valortotal);
 		}
 		if (codpais == 3) {
 			imposto = pretotal * (25/100);
-			System.out.print(imposto);
+			System.out.println("Imposto: " + imposto);
 			valortotal = pretotal + imposto;
 			System.out.println("Valor Total: " + valortotal);
 		}
